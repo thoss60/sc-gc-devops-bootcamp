@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
-    prefix = "terraform/state/lab2"
+    bucket = "sc-gc-devops-bootcamp-284719-tfstate"
+    prefix = "terraform/bootstrap/state"
   }
 }
